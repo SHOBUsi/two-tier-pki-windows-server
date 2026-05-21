@@ -1,10 +1,6 @@
-# Two-Tier PKI on Windows Server — SELDOM Lab
+# Two-Tier PKI on Windows Server 
 
-> MSc Cyber Security coursework: design, deploy, and threat-model a two-tier Microsoft Public Key Infrastructure (PKI) on Windows Server, terminating a TLS-protected web service for a fictional organisation called **SELDOM**.
-
-**Module:** LD7007 Networks Security · Northumbria University · MSc Cyber Security
-**Assignment type:** Group coursework (30% of module mark)
-**Lead author (report owner):** Soriful Islam Shoaib
+> MSc Cyber Security coursework: design, deploy, and threat-model a two-tier Public Key Infrastructure (PKI) on Windows Server, terminating a TLS-protected web service for a fictional organisation called **SELDOM**.
 
 ---
 
