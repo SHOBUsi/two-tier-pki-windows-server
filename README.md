@@ -1,16 +1,11 @@
-# Two-Tier PKI on Windows Server — SELDOM Lab
+# Two-Tier PKI on Windows Server
 
-> MSc Cyber Security coursework: design and deploy a two-tier Microsoft Public Key Infrastructure (PKI) on Windows Server, terminating a TLS-protected web service for a fictional organisation called **SELDOM**.
-
-**Module:** LD7007 Networks Security · Northumbria University · MSc Cyber Security
-**Assignment type:** Group coursework (30% of module mark)
-**Lead author (this repository):** Soriful Islam Shoaib — implementation contributor
-
+> MSc Cyber Security coursework: design and deploy a two-tier Public Key Infrastructure (PKI) on Windows Server, terminating a TLS-protected web service for a fictional organisation called **SELDOM**.
 ---
 
 ## What this project demonstrates
 
-A working two-tier Microsoft PKI built end-to-end in a virtualised Windows Server environment. The proof that everything works is a domain-joined browser loading `https://www.seldom.test` with a valid HTTPS padlock and the full certificate chain `seldom-ROOT-CA-CA → seldom-DOMAINCONTROLER-CA-1 → www.seldom.test`.
+A working two-tier PKI built end-to-end in a virtualised Windows Server environment. The proof that everything works is a domain-joined browser loading `https://www.seldom.test` with a valid HTTPS padlock and the full certificate chain `seldom-ROOT-CA-CA → seldom-DOMAINCONTROLER-CA-1 → www.seldom.test`.
 
 ![Final HTTPS proof: www.seldom.test loaded with full certificate chain](screenshots/04-web-server/04-final-https-proof.png)
 
@@ -119,7 +114,7 @@ two-tier-pki-windows-server/
 
 ## How to read this repository
 
-Start with the screenshots in the order numbered above — they tell the build story end-to-end in roughly 12 frames, from the empty Server Manager to the final green-padlocked HTTPS page.
+Start with the screenshots in the order numbered above; they tell the build story end-to-end in roughly 12 frames, from the empty Server Manager to the final green-padlocked HTTPS page.
 
 ---
 
@@ -140,28 +135,11 @@ Step-by-step screenshots for every wizard pane are in `/screenshots`.
 
 ## Scope of contribution
 
-This was a **group coursework submission** under Northumbria University's LD7007 Networks Security module. This repository is deliberately scoped to the **implementation** portion of that submission — the practical PKI build, the certificate issuance, and the IIS TLS termination — which the lead author personally delivered. Other sections of the assessed group report (threat modelling, ethical and legal analysis) were authored by other group members and are intentionally not included here.
-
----
-
-## License
-
-> **Suggestion (requires your confirmation):** an MIT licence file is included as a default for portfolio use. If your institution requires "All rights reserved" for assessed work, or if your group decided on a different licence, replace the `LICENSE` file before publishing the repository.
-
----
-
-## Clone
-
-```bash
-git clone https://github.com/<your-github-username>/two-tier-pki-windows-server.git
-cd two-tier-pki-windows-server
-```
-
-> **This information has not been confirmed yet:** the `<your-github-username>` placeholder. Find-and-replace it with your real GitHub handle before pushing.
+This was a **group coursework submission** under Northumbria University's Network Security module. This repository is deliberately scoped to the **implementation** portion of that submission, the practical PKI build, the certificate issuance, and the IIS TLS termination, which the author personally delivered. Other sections of the assessed group report (threat modelling, ethical and legal analysis) were authored by other group members and are intentionally not included here.
 
 ---
 
 ## Acknowledgements
 
-- Northumbria University, MSc Cyber Security programme, LD7007 module team for the brief.
+- Northumbria University, MSc Cyber Security programme.
 - The wider Microsoft / Active Directory Certificate Services documentation and community knowledge base that informed the implementation choices.
