@@ -1,4 +1,4 @@
-# Two-Tier PKI on Windows Server
+# Two-Tier PKI Design & Implementation 
 
 > MSc Cyber Security coursework: design and deploy a two-tier Public Key Infrastructure (PKI) on Windows Server, terminating a TLS-protected web service for a fictional organisation called **SELDOM**.
 ---
